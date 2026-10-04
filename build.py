@@ -5,8 +5,11 @@
 
 用法（最常见）：
     python build.py                      # 交互式：会问你要托管地址
-    python build.py --base https://raw.githubusercontent.com/你/仓库/main
-    python build.py --base http://192.168.2.144:8899 --name "我的图标包"
+    python build.py --base https://raw.githubusercontent.com/你/仓库/master/icons
+    python build.py --base http://192.168.2.144:8899/icons --name "我的图标包"
+
+⚠️ --base 必须含 icons/ 这一层。scan_icons 的路径是相对 icons/ 算的，
+   少了这层所有图片 URL都会 404（2026-10-04 实测踩过）。
 
 设计要点：
   1. 图标放 icons/ 目录里，文件名就是图标名（不带扩展名）。
@@ -294,7 +297,8 @@ def build_preview(entries, pack_name, base):
 # ---------------------------------------------------------------- 主流程
 def main():
     ap = argparse.ArgumentParser(description="生成 Loon / SenPlayer 通用图标包")
-    ap.add_argument("--base", help="图标包的公网访问前缀，例如 https://raw.githubusercontent.com/你/仓库/main")
+    ap.add_argument("--base", help="图标包的公网访问前缀（必须含 icons/ 这一层），"
+                                   "例如 https://raw.githubusercontent.com/你/仓库/master/icons")
     ap.add_argument("--name", default="我的图标包", help="图标包显示名")
     ap.add_argument("--description", default="", help="图标包描述")
     ap.add_argument("--prefix-folder", action="store_true", help="图标名带上子目录前缀，避免重名")
@@ -317,9 +321,10 @@ def main():
     if not base:
         print()
         print("没有指定 --base，图标包得有个公网地址手机才拉得到。选一个：")
-        print("  1) GitHub 仓库  → https://raw.githubusercontent.com/<用户名>/<仓库>/main")
-        print("  2) 自己的 NAS    → http://192.168.2.144:<端口>（需配 Lucky/反代）")
-        print("  3) Cloudflare R2 → https://<桶>.r2.dev")
+        print("  1) GitHub 仓库  → https://raw.githubusercontent.com/<用户名>/<仓库>/master/icons")
+        print("  2) 自己的 NAS    → http://192.168.2.144:<端口>/icons（需配 Lucky/反代）")
+        print("  3) Cloudflare R2 → https://<桶>.r2.dev/icons")
+        print("  注意末尾必须有 /icons 这一层，否则图片全 404。")
         try:
             base = input("粘贴前缀（回车用示例 https://example.com/icons）: ").strip()
         except (EOFError, KeyboardInterrupt):
