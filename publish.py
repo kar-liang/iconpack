@@ -75,9 +75,19 @@ def git(*args):
     return run(["git", *args], capture_output=True, text=True)
 
 
-def has_staged_changes():
-    r = git("diff", "--cached", "--quiet")
-    # returncode 0 = 没变化，1 = 有变化
+def pack_changed() -> bool:
+    """dist/icons.json 相对上次提交是否真的变了。
+
+    这是推送的判断依据 —— **不用「整个工作区有没有变化」**。
+    原因：改了 apps.txt 但忘了下载图标时，build 产物跟上次一模一样，
+    按「工作区有变化」推就会推一个空提交上去，误导成「已经更新了」。
+
+    首次提交（没有 HEAD）一律视为有变化。
+    """
+    r = git("rev-parse", "--verify", "HEAD")
+    if r.returncode != 0:
+        return True                      # 还没提交过
+    r = git("diff", "--quiet", "HEAD", "--", "dist/icons.json", "icons")
     return r.returncode != 0
 
 
@@ -89,11 +99,15 @@ def publish(conf):
     print("  提交并推送")
     print("=" * 60)
 
-    git("add", "-A")
-    if not has_staged_changes():
-        print("\n没有文件变化，跳过推送（本地包已是最新）。")
+    #先判断再 add —— 顺序反了会在「跳过推送」时留下暂存状态，
+    #下次运行会误以为有新变化。
+    if not pack_changed():
+        print("\n图标包本身没变化，跳过推送。")
+        if git("status", "--short").stdout.strip():
+            print("（有其他文件改动，但不涉及图标包）")
         return 0
 
+    git("add", "-A")
     r = git("commit", "-q", "-m", "update icons")
     if r.returncode != 0:
         print("[ERROR] git commit 失败：\n" + (r.stderr or r.stdout))
