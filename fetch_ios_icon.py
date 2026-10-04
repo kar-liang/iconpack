@@ -30,6 +30,24 @@ ROOT = Path(__file__).resolve().parent
 LOOKUP = "https://itunes.apple.com/lookup"
 SEARCH = "https://itunes.apple.com/search"
 
+
+def _bind_console_encoding():
+    """让 print 走当前控制台代码页（cmd 里中文否则是乱码）。
+
+    本机代码页 936（GBK），而 Python 3.6+ 在 Windows 上 stdout 默认 UTF-8。
+    这个脚本会打印中文 app 名（元气壁纸/ 微信 / 哔哩哔哩…），不绑就全乱码。
+    **不要用 chcp 65001** —— 跟 GBK 打架，bat 解析行结构会崩。
+    """
+    for stream in (sys.stdout, sys.stderr):
+        if "utf-8" in (getattr(stream, "encoding", "") or "").lower():
+            try:
+                stream.reconfigure(encoding="gbk", errors="replace")
+            except Exception:
+                pass
+
+
+_bind_console_encoding()
+
 # mzstatic 的图片 URL 靠后缀控制尺寸与格式：
 #   512x512bb.jpg  -> 512 jpg（bb = 加边框，不想要）
 #   1024x1024w.png -> 1024 无损 png 原图（w = 原图，无缩放）

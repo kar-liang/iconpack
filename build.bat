@@ -1,4 +1,9 @@
 @echo off
+REM [DEPRECATED] Do not use for routine updates.
+REM Use add-icons.bat instead - it does download+build+push in one go,
+REM reads base URL and pack name from iconpack.conf.json, and uses
+REM the master branch (this file still assumes main).
+REM Kept only for reference / first-time setup.
 chcp 65001 >nul 2>&1
 cd /d "%~dp0"
 

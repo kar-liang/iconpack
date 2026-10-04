@@ -44,7 +44,7 @@ echo Tip: add --dry-run first to check every name resolves correctly.
 :done
 echo.
 echo All done. Icons are in  icons\apps
-echo Now run  build.bat  to regenerate the pack.
+echo Icons downloaded. Use add-icons.bat next time - it does the whole flow.
 
 :pause
 echo.

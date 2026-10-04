@@ -10,6 +10,7 @@ add-icons.bat 只调这个脚本。bat 必须是纯 ASCII（本机代码页 936�
     python publish.py --no-push  # 只 build，不推
 """
 import json
+import os
 import subprocess
 import sys
 import urllib.parse
@@ -19,6 +20,26 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 CONF = ROOT / "iconpack.conf.json"
 PY = sys.executable
+
+
+def use_console_encoding():
+    """让 print 走当前控制台代码页，否则 cmd 里中文全是乱码。
+
+    本机 ANSI/OEM 代码页是 936（GBK）。Python 3.6+ 在Windows 上
+    stdout 默认用 UTF-8 + 错误时抛异常或替换，cmd 下会显示乱码。
+    这里把 stdout/stderr 重新绑到 console 的 mbcs 编码。
+    **不要用 chcp 65001** —— 那会跟 GBK 打架，bat 解析行结构直接崩。
+    """
+    for stream in (sys.stdout, sys.stderr):
+        enc = (getattr(stream, "encoding", "") or "").lower()
+        if "utf-8" in enc:
+            try:
+                stream.reconfigure(encoding="gbk", errors="replace")
+            except Exception:
+                pass
+
+
+use_console_encoding()
 
 
 def load_conf():
