@@ -19,10 +19,10 @@
 <p>弹窗里选「打开」</p>
 <p>没反应就用下面的手动按钮（SenPlayer 需 6.0.6 或更高）</p>
 <div id="wrap"><a class="btn" id="btn" href="#">手动一键导入</a></div>
-<p style="margin-top:28px">图标包地址<br><code>https://raw.githubusercontent.com/kar-liang/iconpack/master/icons.json</code></p>
+<p style="margin-top:28px">图标包地址<br><code>https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/icons.json</code></p>
 <script>
  (function(){
-  var u = new URLSearchParams(location.search).get('iconset') || "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons.json";
+  var u = new URLSearchParams(location.search).get('iconset') || "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/icons.json";
   var scheme = "senplayer://importicon?iconset=" + encodeURIComponent(u);
   var a = document.getElementById('btn'); a.href = scheme;
   location.href = scheme;

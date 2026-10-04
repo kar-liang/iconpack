@@ -1,130 +1,130 @@
 {
-  "name": "我的图标包 261004",
+  "name": "我的图标包 261004 261004",
   "description": "自建图标包 · 261004",
   "icons": [
     {
       "name": "105° Ciallo",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/emby/105%C2%B0%20Ciallo.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/emby/105%C2%B0%20Ciallo.png"
     },
     {
       "name": "115",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/apps/115.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/apps/115.png"
     },
     {
       "name": "ChaPanda ChaBaiDao",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/emby/ChaPanda%20ChaBaiDao.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/emby/ChaPanda%20ChaBaiDao.png"
     },
     {
       "name": "ChuiYanNiaoNiao Cynn",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/emby/ChuiYanNiaoNiao%20Cynn.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/emby/ChuiYanNiaoNiao%20Cynn.png"
     },
     {
       "name": "Emby",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/emby/Emby.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/emby/Emby.png"
     },
     {
       "name": "EmbyPlus ZhiPianRen",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/emby/EmbyPlus%20ZhiPianRen.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/emby/EmbyPlus%20ZhiPianRen.png"
     },
     {
       "name": "Filmix",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/apps/Filmix.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/apps/Filmix.png"
     },
     {
       "name": "GoogleDrive",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/emby/GoogleDrive.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/emby/GoogleDrive.png"
     },
     {
       "name": "Nijigen ErCiYuan",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/emby/Nijigen%20ErCiYuan.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/emby/Nijigen%20ErCiYuan.png"
     },
     {
       "name": "OpenList",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/emby/OpenList.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/emby/OpenList.png"
     },
     {
       "name": "QQ",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/apps/QQ.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/apps/QQ.png"
     },
     {
       "name": "SNTPMediaLite",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/emby/SNTPMediaLite.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/emby/SNTPMediaLite.png"
     },
     {
       "name": "Steven",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/emby/Steven.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/emby/Steven.png"
     },
     {
       "name": "ZheZhiMao ZZM",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/emby/ZheZhiMao%20ZZM.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/emby/ZheZhiMao%20ZZM.png"
     },
     {
       "name": "元气壁纸",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/apps/%E5%85%83%E6%B0%94%E5%A3%81%E7%BA%B8.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/apps/%E5%85%83%E6%B0%94%E5%A3%81%E7%BA%B8.png"
     },
     {
       "name": "卡通农场",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/apps/%E5%8D%A1%E9%80%9A%E5%86%9C%E5%9C%BA.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/apps/%E5%8D%A1%E9%80%9A%E5%86%9C%E5%9C%BA.png"
     },
     {
       "name": "哔哩哔哩",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/apps/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/apps/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.png"
     },
     {
       "name": "喜马拉雅",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/apps/%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/apps/%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85.png"
     },
     {
       "name": "小红书",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/apps/%E5%B0%8F%E7%BA%A2%E4%B9%A6.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/apps/%E5%B0%8F%E7%BA%A2%E4%B9%A6.png"
     },
     {
       "name": "微信",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/apps/%E5%BE%AE%E4%BF%A1.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/apps/%E5%BE%AE%E4%BF%A1.png"
     },
     {
       "name": "微博",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/apps/%E5%BE%AE%E5%8D%9A.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/apps/%E5%BE%AE%E5%8D%9A.png"
     },
     {
       "name": "微博轻享版",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/apps/%E5%BE%AE%E5%8D%9A%E8%BD%BB%E4%BA%AB%E7%89%88.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/apps/%E5%BE%AE%E5%8D%9A%E8%BD%BB%E4%BA%AB%E7%89%88.png"
     },
     {
       "name": "抖音",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/apps/%E6%8A%96%E9%9F%B3.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/apps/%E6%8A%96%E9%9F%B3.png"
     },
     {
       "name": "抖音精选",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/apps/%E6%8A%96%E9%9F%B3%E7%B2%BE%E9%80%89.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/apps/%E6%8A%96%E9%9F%B3%E7%B2%BE%E9%80%89.png"
     },
     {
       "name": "支付宝",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/apps/%E6%94%AF%E4%BB%98%E5%AE%9D.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/apps/%E6%94%AF%E4%BB%98%E5%AE%9D.png"
     },
     {
       "name": "百度网盘",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/apps/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/apps/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98.png"
     },
     {
       "name": "部落冲突",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/apps/%E9%83%A8%E8%90%BD%E5%86%B2%E7%AA%81.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/apps/%E9%83%A8%E8%90%BD%E5%86%B2%E7%AA%81.png"
     },
     {
       "name": "SNTPMediaLite-02",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/emby/SNTPMediaLite.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/emby/SNTPMediaLite.png"
     },
     {
       "name": "SNTPMediaLite-03",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/emby/SNTPMediaLite.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/emby/SNTPMediaLite.png"
     },
     {
       "name": "SNTPMediaLite-04",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/emby/SNTPMediaLite.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/emby/SNTPMediaLite.png"
     },
     {
       "name": "ZheZhiMao ZZM-02",
-      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/emby/ZheZhiMao%20ZZM.png"
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/emby/ZheZhiMao%20ZZM.png"
     }
   ]
 }
