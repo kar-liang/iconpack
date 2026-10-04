@@ -1,0 +1,178 @@
+[
+  {
+    "name": "元气壁纸",
+    "file": "元气壁纸.png",
+    "bundleId": "com.ciyuankongjian.yuanqibizhi",
+    "appId": 6448843762,
+    "artist": "平英 夏",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "name": "卡通农场",
+    "file": "卡通农场.png",
+    "bundleId": "com.supercell.soil",
+    "appId": 506627515,
+    "artist": "Supercell",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "name": "Filmix",
+    "file": "Filmix.png",
+    "bundleId": "com.filmixpro.filmix",
+    "appId": 6476475132,
+    "artist": "Luoyang Innovative Software Co., Ltd.",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "name": "部落冲突",
+    "file": "部落冲突.png",
+    "bundleId": "com.supercell.magic.china",
+    "appId": 1595603316,
+    "artist": "Shenzhen Tencent Tianyou Technology Ltd",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "name": "微博",
+    "file": "微博.png",
+    "bundleId": "com.sina.weibo",
+    "appId": 350962117,
+    "artist": "SINA Corporation",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "name": "微博轻享版",
+    "file": "微博轻享版.png",
+    "bundleId": "com.weibo.international",
+    "appId": 1215210046,
+    "artist": "Beijing Weimeng Internet Technology Co., Ltd.",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "name": "喜马拉雅",
+    "file": "喜马拉雅.png",
+    "bundleId": "com.gemd.iting",
+    "appId": 876336838,
+    "artist": "Xi Da (Shanghai) Network Technology Co., Ltd.",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "name": "抖音",
+    "file": "抖音.png",
+    "bundleId": "com.ss.iphone.ugc.Aweme",
+    "appId": 1142110895,
+    "artist": "Beijing Douyin Technology Co., Ltd.",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "name": "抖音精选",
+    "file": "抖音精选.png",
+    "bundleId": "com.ss.iphone.yumme.video",
+    "appId": 6444170965,
+    "artist": "Beijing Douyin Technology Co., Ltd.",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "name": "百度网盘",
+    "file": "百度网盘.png",
+    "bundleId": "com.baidu.netdisk",
+    "appId": 547166701,
+    "artist": "Beijing Duyou Science and Technology Co.,Ltd.",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "name": "115",
+    "file": "115.png",
+    "bundleId": "com.115.app",
+    "appId": 1469012999,
+    "artist": "Guangdong 115 Technology Co., Ltd.",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "name": "哔哩哔哩",
+    "file": "哔哩哔哩.png",
+    "bundleId": "tv.danmaku.bilianime",
+    "appId": 736536022,
+    "artist": "bilibili",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "name": "小红书",
+    "file": "小红书.png",
+    "bundleId": "com.xingin.discover",
+    "appId": 741292507,
+    "artist": "Xingin",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "name": "QQ",
+    "file": "QQ.png",
+    "bundleId": "com.tencent.mqq",
+    "appId": 444934666,
+    "artist": "Tencent Technology (Shenzhen) Company Limited",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "name": "微信",
+    "file": "微信.png",
+    "bundleId": "com.tencent.xin",
+    "appId": 414478124,
+    "artist": "WeChat",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "name": "支付宝",
+    "file": "支付宝.png",
+    "bundleId": "com.alipay.iphoneclient",
+    "appId": 333206289,
+    "artist": "Alipay (Hangzhou) Technology Co., Ltd.",
+    "size": [
+      1024,
+      1024
+    ]
+  }
+]

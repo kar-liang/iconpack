@@ -1,0 +1,10 @@
+# 导入页要传到线上才能在手机上点开，所以 dist 必须提交。
+# 只忽略临时产物和备份。
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# 备份（回滚用的，别进仓库）
+*.bak-before-trim
+*.bak

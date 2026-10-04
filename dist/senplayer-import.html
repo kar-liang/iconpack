@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>导入 SenPlayer 图标包</title>
+<style>
+ body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;
+      text-align:center;padding:48px 20px;background:#f6f6f8;color:#1c1c1e}
+ h3{margin:0 0 8px;font-size:17px}
+ p{color:#8a8a8e;font-size:14px;margin:6px 0}
+ .btn{display:inline-block;margin-top:22px;padding:12px 22px;background:#0a84ff;color:#fff;
+       text-decoration:none;border-radius:10px;font-size:16px}
+ code{background:#ececf0;padding:2px 6px;border-radius:4px;font-size:12px;word-break:break-all}
+</style>
+</head>
+<body>
+<h3>正在唤醒 SenPlayer…</h3>
+<p>弹窗里选「打开」</p>
+<p>没反应就用下面的手动按钮（SenPlayer 需 6.0.6 或更高）</p>
+<div id="wrap"><a class="btn" id="btn" href="#">手动一键导入</a></div>
+<p style="margin-top:28px">图标包地址<br><code>https://raw.githubusercontent.com/kar-liang/iconpack/main/icons.json</code></p>
+<script>
+ (function(){
+  var u = new URLSearchParams(location.search).get('iconset') || "https://raw.githubusercontent.com/kar-liang/iconpack/main/icons.json";
+  var scheme = "senplayer://importicon?iconset=" + encodeURIComponent(u);
+  var a = document.getElementById('btn'); a.href = scheme;
+  location.href = scheme;
+  setTimeout(function(){
+    if (document.getElementById('wrap')) document.getElementById('wrap').style.opacity = 1;
+  }, 3000);
+ })();
+</script>
+</body>
+</html>

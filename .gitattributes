@@ -1,0 +1,9 @@
+# bat 必须保持 CRLF，否则 cmd 解析行结构会炸（实测本机代码页 936）
+*.bat text eol=crlf
+
+# 脚本和文本统一 LF
+*.py text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.html text eol=lf
