@@ -22,6 +22,17 @@
     ]
   },
   {
+    "name": "Telegram",
+    "file": "Telegram.png",
+    "bundleId": "ph.telegra.Telegraph",
+    "appId": 686449807,
+    "artist": "Telegram FZ-LLC",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
     "name": "Filmix",
     "file": "Filmix.png",
     "bundleId": "com.filmixpro.filmix",
