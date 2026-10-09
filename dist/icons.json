@@ -1,5 +1,5 @@
 {
-  "name": "我的图标包 261004 261004",
+  "name": "我的图标包 261004 261009",
   "description": "自建图标包 · 261004",
   "icons": [
     {
@@ -61,6 +61,10 @@
     {
       "name": "YuanL",
       "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/emby/YuanL.png"
+    },
+    {
+      "name": "YuanL Pixel",
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/emby/YuanL%20Pixel.png"
     },
     {
       "name": "ZheZhiMao ZZM",
