@@ -47,3 +47,6 @@ Filmix = 6476475132
 QQ
 微信
 支付宝
+
+# LocalDevVPN，国区查不到，必须 @us 钉死（id=6755608044，bundleId com.jkcoxson.LocalDevVPN）
+LocalDevVPN = 6755608044@us

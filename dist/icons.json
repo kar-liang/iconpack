@@ -1,5 +1,5 @@
 {
-  "name": "我的图标包 261004 261009",
+  "name": "我的图标包 261004 261120",
   "description": "自建图标包 · 261004",
   "icons": [
     {
@@ -33,6 +33,10 @@
     {
       "name": "GoogleDrive",
       "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/emby/GoogleDrive.png"
+    },
+    {
+      "name": "LocalDevVPN",
+      "url": "https://raw.githubusercontent.com/kar-liang/iconpack/master/icons/apps/LocalDevVPN.png"
     },
     {
       "name": "Nijigen ErCiYuan",

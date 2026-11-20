@@ -44,6 +44,17 @@
     ]
   },
   {
+    "name": "LocalDevVPN",
+    "file": "LocalDevVPN.png",
+    "bundleId": "com.jkcoxson.LocalDevVPN",
+    "appId": 6755608044,
+    "artist": "Coxson Engineering LLC",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
     "name": "部落冲突",
     "file": "部落冲突.png",
     "bundleId": "com.supercell.magic.china",
